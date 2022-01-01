@@ -1,0 +1,254 @@
+@media screen and (max-width:1196px) {
+    .info p {
+        max-width: 170px;
+    }
+}
+
+@media screen and (max-width:1104px) {
+    .partners-block {
+        justify-content: center;
+    }
+
+    .price-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .contact-left {
+        padding: 52px 15px;
+        max-width: 390px;
+    }
+
+    .info:nth-child(1) {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width:971px) {
+
+
+    .logo {
+        display: none;
+    }
+
+    .light-block {
+        flex-wrap: wrap;
+    }
+
+    .right-light {
+        margin: 0 auto;
+    }
+
+    .ico-social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .fast-block {
+        flex-wrap: wrap;
+        gap: 59px;
+        justify-content: center;
+    }
+
+    .fast-text {
+        text-align: center;
+    }
+
+    .fast-text h2 {
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width:726px) {
+    .footer-content {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .info-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info:nth-child(1) {
+        width: 100%;
+    }
+
+    .map-info {
+        margin: 15px auto;
+        ;
+    }
+}
+@media screen and (max-width:662px) {
+    .social-link{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+@media screen and (max-width:632px) {
+    .footer-block {
+        flex-wrap: wrap;
+        gap: 83px;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .footer-link {
+        margin: 0;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 76px;
+    }
+
+    .footer-social {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .map-info {
+        display: none;
+    }
+    .p-card:nth-child(n+4):nth-child(-n+8){
+        display: none;
+    }
+
+    .info {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .info-block {
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .contact-block {
+        flex-direction: column-reverse;
+        gap: 78px;
+        align-items: center;
+    }
+
+    .contact-right {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+        gap: 65px;
+        width: initial;
+        margin: 0;
+    }
+
+    .contact-left {
+        max-width: 453px;
+        width: 100%;
+    }
+
+    .info {
+        max-width: initial;
+    }
+
+    .info p {
+        max-width: 300px;
+    }
+
+    .fea-cards {
+        flex-wrap: wrap;
+    }
+
+    header {
+        height: 750px;
+        background-image: url(../img/mobile-header-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        background-position: bottom;
+    }
+
+    .header-content h1 {
+        color: #fff;
+        font-family: Graphik-Regular;
+        font-size: 48px;
+        line-height: 55px;
+        letter-spacing: 0.2px;
+        max-width: 333px;
+        text-align: center;
+
+    }
+
+    .contact-social {
+        text-align: center;
+    }
+
+    .social-link {
+        display: none;
+    }
+
+    .logo {
+        display: inline;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        top: 0;
+        right: -100%;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        background-color: #303950;
+        z-index: 300;
+        gap: 50px;
+        padding: 35px;
+        transition: 500ms;
+    }
+
+    ._icon-burger {
+        font-size: 21px;
+        color: #fff;
+        display: block;
+        position: absolute;
+        right: 5%;
+        z-index: 1000;
+    }
+
+    ._icon-burger:hover~.nav-list {
+        right: 0;
+    }
+
+    ._icon-burger:hover {
+        color: transparent;
+    }
+
+    .light-email {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right-light {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .btn {
+        padding: 18px 38px;
+    }
+    .header-content p{
+        margin:20px auto;
+    }
+}

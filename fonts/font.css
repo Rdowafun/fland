@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Graphik-Bold;
+    src: url(Graphik-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: Graphik-Regular;
+    src: url(Graphik-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-Black;
+    src: url(Roboto-Black.ttf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(Roboto-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(Roboto-Regular.ttf);
+}
